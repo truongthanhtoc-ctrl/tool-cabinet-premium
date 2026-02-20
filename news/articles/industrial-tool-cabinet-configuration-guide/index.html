@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Industrial Tool Cabinet Configuration Guide | SAFEWELL</title>
+    <meta name="description"
+        content="A practical industrial tool cabinet configuration guide covering drawer planning, recessed lock vs smart lock decisions, and side-mounted PDU standards for OEM/ODM projects." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: "#0a0a0a",
+                        accent: "#004791"
+                    },
+                    fontFamily: {
+                        oswald: ["Manrope", "sans-serif"],
+                        sans: ["IBM Plex Sans", "sans-serif"]
+                    }
+                }
+            }
+        };
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Industrial Tool Cabinet Configuration Guide: Drawers, Locks, and Side-Mounted PDU",
+  "datePublished": "2026-02-20",
+  "dateModified": "2026-02-20",
+  "author": {
+    "@type": "Organization",
+    "name": "SAFEWELL"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SAFEWELL"
+  },
+  "about": [
+    "industrial tool cabinet configuration",
+    "tool cabinet lock options",
+    "side mounted pdu"
+  ]
+}
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best starting layout for industrial tool cabinets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most projects start with mixed drawer depths: shallow for hand tools, medium for kits, and deep lower drawers for heavier tools."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I choose a recessed mechanical lock or smart lock?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choose recessed mechanical locks for low-maintenance reliability, and smart locks when you need user-level access control and traceability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where should the integrated PDU be installed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A practical location is the upper side panel in horizontal orientation, with socket standards selected by destination market."
+      }
+    }
+  ]
+}
+    </script>
+</head>
+
+<body class="bg-dark text-gray-100 antialiased overflow-x-hidden">
+
+    <nav class="fixed top-0 w-full z-50 transition-all duration-500 py-4" id="navbar">
+        <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
+            <a href="/" class="flex items-center">
+                <img src="/assets/logo.png" alt="SAFEWELL" class="h-8 md:h-10">
+            </a>
+            <div class="hidden md:flex space-x-10 text-[11px] font-bold tracking-[0.2em] items-center">
+                <a href="/" class="hover:text-accent transition-colors">HOME</a>
+                <a href="/about/" class="hover:text-accent transition-colors">ABOUT US</a>
+                <a href="/products/" class="hover:text-accent transition-colors">PRODUCTS</a>
+                <a href="/oem-odm/" class="hover:text-accent transition-colors">OEM/ODM</a>
+                <a href="/news/" class="text-accent">NEWS</a>
+                <a href="/careers/" class="hover:text-accent transition-colors">CAREERS</a>
+                <a href="/contact/" class="hover:text-accent transition-colors">CONTACT</a>
+            </div>
+            <a href="/contact/" class="hidden md:block btn-primary text-[10px] py-3">
+                REQUEST FACTORY PRICE
+            </a>
+            <button class="md:hidden text-white">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <header class="relative h-[48vh] min-h-[360px] flex items-end overflow-hidden bg-neutral-900">
+        <div class="absolute inset-0 z-0">
+            <img src="/assets/news/geo-config-hero.webp" alt="Industrial workshop for tool cabinet programs"
+                class="w-full h-full object-cover opacity-40">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/35 via-black/55 to-dark"></div>
+        </div>
+        <div class="relative z-10 max-w-5xl mx-auto px-6 pb-12 w-full">
+            <a href="/news/"
+                class="inline-flex items-center text-xs tracking-[0.18em] font-semibold text-gray-300 hover:text-white">
+                &larr; BACK TO NEWS
+            </a>
+            <p class="text-accent uppercase tracking-widest text-xs font-semibold mt-5 mb-3">GEO Playbook</p>
+            <h1 class="font-oswald text-4xl md:text-6xl text-white uppercase leading-tight max-w-4xl">
+                Industrial Tool Cabinet Configuration Guide
+            </h1>
+            <p class="text-base text-gray-200 mt-4 max-w-3xl">
+                Drawers, lock strategy, and side-mounted PDU standards for OEM/ODM projects.
+            </p>
+            <p class="text-sm text-gray-300 mt-5">Published: Feb 20, 2026 | Updated: Feb 20, 2026</p>
+        </div>
+    </header>
+
+    <main class="bg-neutral-900">
+        <article class="max-w-5xl mx-auto px-6 py-14">
+            <section class="bg-black/35 border border-white/10 p-6 md:p-8 mb-10">
+                <h2 class="font-oswald text-2xl md:text-3xl uppercase text-white mb-4">Direct Answer</h2>
+                <p class="text-gray-200 leading-8">
+                    For most factory programs, the most practical tool cabinet setup is a mixed-depth drawer layout, a
+                    lock type chosen by access policy, and an upper side-mounted PDU selected by destination market
+                    socket standard. Configure by real workflow data first, then choose options.
+                    This avoids over-spec builds, reduces retrieval time, and improves first-sample approval.
+                </p>
+            </section>
+
+            <section class="mb-12">
+                <h2 class="font-oswald text-2xl md:text-3xl uppercase text-white mb-5">TL;DR</h2>
+                <ul class="space-y-3 text-gray-200 leading-7 list-disc pl-6">
+                    <li>Plan drawer zones by tool family and frequency, not by drawer count alone.</li>
+                    <li>Use recessed mechanical lock for low-maintenance reliability, smart lock for traceability.</li>
+                    <li>Set side-mounted PDU position and plug standard at RFQ stage to avoid redesign.</li>
+                </ul>
+            </section>
+
+            <section class="mb-12">
+                <h2 class="font-oswald text-2xl md:text-3xl uppercase text-white mb-5">Configuration Blueprint</h2>
+                <div class="overflow-x-auto border border-white/10">
+                    <table class="w-full text-sm">
+                        <thead class="bg-black/45">
+                            <tr>
+                                <th class="text-left p-4 text-gray-200">Decision Area</th>
+                                <th class="text-left p-4 text-gray-200">Recommended Default</th>
+                                <th class="text-left p-4 text-gray-200">When To Upgrade</th>
+                                <th class="text-left p-4 text-gray-200">Common Risk</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-white/10 bg-black/20">
+                            <tr>
+                                <td class="p-4 text-gray-300">Drawer architecture</td>
+                                <td class="p-4 text-white">Shallow + medium + deep mix</td>
+                                <td class="p-4 text-white">Multi-team workflows</td>
+                                <td class="p-4 text-white">Ordering by drawer count only</td>
+                            </tr>
+                            <tr>
+                                <td class="p-4 text-gray-300">Lock type</td>
+                                <td class="p-4 text-white">Recessed mechanical lock</td>
+                                <td class="p-4 text-white">Need user-level access logs</td>
+                                <td class="p-4 text-white">No override policy</td>
+                            </tr>
+                            <tr>
+                                <td class="p-4 text-gray-300">PDU placement</td>
+                                <td class="p-4 text-white">Upper side, horizontal mount</td>
+                                <td class="p-4 text-white">Multiple market versions</td>
+                                <td class="p-4 text-white">Late electrical changes</td>
+                            </tr>
+                            <tr>
+                                <td class="p-4 text-gray-300">Market compliance</td>
+                                <td class="p-4 text-white">US/UK/EU plug options</td>
+                                <td class="p-4 text-white">Country-specific demand</td>
+                                <td class="p-4 text-white">Single global socket assumption</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="mb-12">
+                <figure class="overflow-hidden border border-white/10 bg-black/30">
+                    <img src="/assets/news/geo-config-collab.webp" alt="Factory team discussing tool cabinet engineering"
+                        class="w-full h-auto object-cover">
+                    <figcaption class="text-xs tracking-[0.12em] text-gray-400 uppercase p-4">
+                        Engineering and production alignment is the fastest route to stable OEM sampling.
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section class="mb-12">
+                <h2 class="font-oswald text-2xl md:text-3xl uppercase text-white mb-5">AI Intent Map</h2>
+                <div class="grid md:grid-cols-2 gap-5">
+                    <div class="border border-white/10 bg-black/20 p-5">
+                        <h3 class="font-oswald text-xl uppercase text-white mb-2">Understand</h3>
+                        <p class="text-gray-300 leading-7">What is the best baseline layout for industrial tool cabinets?</p>
+                    </div>
+                    <div class="border border-white/10 bg-black/20 p-5">
+                        <h3 class="font-oswald text-xl uppercase text-white mb-2">Compare</h3>
+                        <p class="text-gray-300 leading-7">Recessed mechanical lock vs smart lock for multi-shift teams.</p>
+                    </div>
+                    <div class="border border-white/10 bg-black/20 p-5">
+                        <h3 class="font-oswald text-xl uppercase text-white mb-2">Decide</h3>
+                        <p class="text-gray-300 leading-7">Which plug standards should be offered for export markets?</p>
+                    </div>
+                    <div class="border border-white/10 bg-black/20 p-5">
+                        <h3 class="font-oswald text-xl uppercase text-white mb-2">Implement</h3>
+                        <p class="text-gray-300 leading-7">How to lock down option matrix before pilot production.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mb-12">
+                <h2 class="font-oswald text-2xl md:text-3xl uppercase text-white mb-5">Core Fact Blocks</h2>
+                <div class="space-y-5">
+                    <div class="border border-white/10 bg-black/20 p-5">
+                        <p class="text-white font-semibold mb-2">Fact Block 1</p>
+                        <p class="text-gray-200 leading-7"><strong>Claim:</strong> Storage systems must prevent collapse and
+                            instability in workplace environments.</p>
+                        <p class="text-gray-300 text-sm mt-2"><strong>Evidence:</strong> OSHA 29 CFR 1910.176.</p>
+                    </div>
+                    <div class="border border-white/10 bg-black/20 p-5">
+                        <p class="text-white font-semibold mb-2">Fact Block 2</p>
+                        <p class="text-gray-200 leading-7"><strong>Claim:</strong> Lockout/tagout process is required where
+                            servicing may expose hazardous energy.</p>
+                        <p class="text-gray-300 text-sm mt-2"><strong>Evidence:</strong> OSHA 29 CFR 1910.147.</p>
+                    </div>
+                    <div class="border border-white/10 bg-black/20 p-5">
+                        <p class="text-white font-semibold mb-2">Fact Block 3</p>
+                        <p class="text-gray-200 leading-7"><strong>Claim:</strong> ISO 9001 remains a recognized baseline for
+                            manufacturing quality management.</p>
+                        <p class="text-gray-300 text-sm mt-2"><strong>Evidence:</strong> ISO 9001:2015 official overview.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mb-12">
+                <h2 class="font-oswald text-2xl md:text-3xl uppercase text-white mb-5">Lock And PDU Option Rules</h2>
+                <ul class="space-y-4 text-gray-200 leading-8 list-disc pl-6">
+                    <li>Use <strong>recessed mechanical lock</strong> for low-maintenance and long service cycles.</li>
+                    <li>Use <strong>smart lock</strong> where identity-based control and usage traceability are needed.</li>
+                    <li>Install <strong>integrated power module</strong> on side upper panel in horizontal orientation.</li>
+                    <li>Offer socket standards by market package: US, UK, EU, and configurable variants.</li>
+                    <li>Define service access and replacement method in the first engineering drawing set.</li>
+                </ul>
+            </section>
+
+            <section class="mb-12">
+                <h2 class="font-oswald text-2xl md:text-3xl uppercase text-white mb-5">Quotable Blocks</h2>
+                <div class="space-y-4">
+                    <blockquote class="border-l-4 border-accent pl-4 text-gray-100 leading-7">
+                        Configuration quality is decided before production starts, not after tooling is complete.
+                    </blockquote>
+                    <blockquote class="border-l-4 border-accent pl-4 text-gray-100 leading-7">
+                        The right lock is a policy decision first and a hardware decision second.
+                    </blockquote>
+                    <blockquote class="border-l-4 border-accent pl-4 text-gray-100 leading-7">
+                        Side-mounted upper PDU planning should be frozen at RFQ to prevent late-stage electrical redesign.
+                    </blockquote>
+                </div>
+            </section>
+
+            <section class="mb-12">
+                <h2 class="font-oswald text-2xl md:text-3xl uppercase text-white mb-5">FAQ</h2>
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="font-oswald text-xl uppercase text-white mb-2">What drawer count is practical for most projects?</h3>
+                        <p class="text-gray-300 leading-7">There is no single perfect count. Start by mapping tools to usage
+                            frequency and physical size, then assign mixed drawer depths. This produces better workflow than selecting
+                            by total drawer quantity alone.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-oswald text-xl uppercase text-white mb-2">Can we offer both mechanical and smart lock options?</h3>
+                        <p class="text-gray-300 leading-7">Yes. This is common in export programs. Keep the cabinet platform stable
+                            and make lock type a configurable option so different markets can choose the control level they need.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-oswald text-xl uppercase text-white mb-2">Where should PDU modules be mounted?</h3>
+                        <p class="text-gray-300 leading-7">For serviceability and ergonomics, upper side placement in horizontal
+                            orientation is widely practical. Confirm socket standards and cable routing in the engineering BOM.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="border border-white/10 bg-black/20 p-6 md:p-8">
+                <h2 class="font-oswald text-2xl md:text-3xl uppercase text-white mb-4">Sources</h2>
+                <ol class="space-y-2 text-gray-300 text-sm leading-7 list-decimal pl-6">
+                    <li><a class="hover:text-white underline"
+                            href="https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.176"
+                            target="_blank" rel="noopener">OSHA 29 CFR 1910.176</a></li>
+                    <li><a class="hover:text-white underline"
+                            href="https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147"
+                            target="_blank" rel="noopener">OSHA 29 CFR 1910.147</a></li>
+                    <li><a class="hover:text-white underline" href="https://www.iso.org/standard/62085.html" target="_blank"
+                            rel="noopener">ISO 9001:2015 overview</a></li>
+                </ol>
+            </section>
+
+            <section class="mt-12 text-center">
+                <p class="text-gray-300 mb-4">Need a tailored cabinet program for your market?</p>
+                <a href="/contact/" class="btn-primary inline-flex justify-center text-xs md:text-sm px-8 py-4">
+                    REQUEST OEM/ODM CONFIGURATION SUPPORT
+                </a>
+            </section>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer__glow site-footer__glow--left"></div>
+        <div class="site-footer__glow site-footer__glow--right"></div>
+        <div class="site-footer__inner max-w-7xl mx-auto px-6">
+            <div class="site-footer__top">
+                <div class="site-footer__brand">
+                    <a href="/" class="site-footer__logo-link">
+                        <img src="/assets/logo.png" alt="SAFEWELL" class="h-8 md:h-10">
+                    </a>
+                    <p class="site-footer__intro">
+                        Since 1998, SAFEWELL has delivered industrial tool cabinet programs for global markets,
+                        combining engineering development, controlled manufacturing, and reliable export execution.
+                    </p>
+                    <div class="site-footer__badges">
+                        <span>ISO 9001</span>
+                        <span>OEM / ODM</span>
+                        <span>Global Export</span>
+                    </div>
+                </div>
+
+                <div class="site-footer__panel">
+                    <h5 class="site-footer__title">Quick Links</h5>
+                    <ul class="site-footer__list">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about/">About Us</a></li>
+                        <li><a href="/products/">Products</a></li>
+                        <li><a href="/contact/">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="site-footer__panel">
+                    <h5 class="site-footer__title">Solutions</h5>
+                    <ul class="site-footer__list">
+                        <li><a href="/oem-odm/">OEM / ODM Program</a></li>
+                        <li><a href="/projects/">Projects</a></li>
+                        <li><a href="/news/">News</a></li>
+                        <li><a href="/careers/">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div class="site-footer__panel site-footer__contact">
+                    <h5 class="site-footer__title">Contact</h5>
+                    <div class="site-footer__contact-item">
+                        <span>Email</span>
+                        <a href="mailto:info@swtoolstorage.com">info@swtoolstorage.com</a>
+                    </div>
+                    <div class="site-footer__contact-item">
+                        <span>Address</span>
+                        <p>No. 26 Pushun Road, Xiaogang Street, Beilun District, Ningbo City, Zhejiang Province</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="site-footer__bottom">
+                <p>&copy; 2026 SAFEWELL Precision Manufacturing. All Rights Reserved.</p>
+                <div class="site-footer__legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="/contact/">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>
