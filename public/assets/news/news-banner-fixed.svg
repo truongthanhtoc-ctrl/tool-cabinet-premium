@@ -60,7 +60,7 @@
   <path d="M220 182H1220" stroke="url(#accent)" stroke-width="5"/>
   <text x="220" y="152" fill="#2B4E74" font-family="Manrope, Arial, sans-serif" font-size="32" letter-spacing="5">SAFEWELL NEWSROOM</text>
   <text x="220" y="270" fill="#10233A" font-family="Manrope, Arial, sans-serif" font-size="102" font-weight="700">Latest News</text>
-  <text x="220" y="350" fill="#0C4FAD" font-family="Manrope, Arial, sans-serif" font-size="62" font-weight="700">Industrial Insight & Updates</text>
+  <text x="220" y="350" fill="#0C4FAD" font-family="Manrope, Arial, sans-serif" font-size="62" font-weight="700">Industrial Insight &amp; Updates</text>
   <text x="220" y="408" fill="#2A496D" font-family="IBM Plex Sans, Arial, sans-serif" font-size="29">Factory stories, OEM/ODM methods, and technical guides</text>
 
   <g>
