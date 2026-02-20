@@ -1,0 +1,30 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cbg" x1="0" y1="0" x2="1200" y2="675" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E1623"/>
+      <stop offset="1" stop-color="#152335"/>
+    </linearGradient>
+    <linearGradient id="cacc" x1="90" y1="110" x2="620" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2B89FF"/>
+      <stop offset="1" stop-color="#0B4FA9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#cbg)"/>
+
+  <rect x="72" y="106" width="580" height="472" rx="18" fill="#172435" stroke="#3C5574" stroke-width="2"/>
+  <rect x="96" y="170" width="530" height="52" rx="8" fill="#101A27" stroke="#3F5A79" stroke-width="2"/>
+  <rect x="96" y="238" width="530" height="52" rx="8" fill="#101A27" stroke="#3F5A79" stroke-width="2"/>
+  <rect x="96" y="306" width="530" height="52" rx="8" fill="#101A27" stroke="#3F5A79" stroke-width="2"/>
+  <rect x="96" y="374" width="530" height="52" rx="8" fill="#101A27" stroke="#3F5A79" stroke-width="2"/>
+  <rect x="96" y="442" width="530" height="110" rx="10" fill="#101A27" stroke="#3F5A79" stroke-width="2"/>
+  <rect x="316" y="122" width="88" height="32" rx="8" fill="#0F1928" stroke="#4D698D" stroke-width="2"/>
+  <circle cx="360" cy="138" r="7" fill="#9EB5CF"/>
+
+  <rect x="694" y="106" width="434" height="472" rx="18" fill="#132133" stroke="#3C5574" stroke-width="2"/>
+  <path d="M714 164H1108" stroke="url(#cacc)" stroke-width="4"/>
+  <text x="714" y="204" fill="#FFFFFF" font-family="Manrope, Arial, sans-serif" font-size="44" font-weight="700">GEO Guide</text>
+  <text x="714" y="252" fill="#6FB0FF" font-family="Manrope, Arial, sans-serif" font-size="36" font-weight="700">Tool Cabinet</text>
+  <text x="714" y="296" fill="#6FB0FF" font-family="Manrope, Arial, sans-serif" font-size="36" font-weight="700">Configuration</text>
+  <text x="714" y="360" fill="#C7D7EA" font-family="IBM Plex Sans, Arial, sans-serif" font-size="24">Drawers / Lock / Side PDU</text>
+  <text x="714" y="402" fill="#C7D7EA" font-family="IBM Plex Sans, Arial, sans-serif" font-size="24">For OEM/ODM projects</text>
+</svg>

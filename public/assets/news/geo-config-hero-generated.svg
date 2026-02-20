@@ -1,0 +1,85 @@
+<svg width="2000" height="1100" viewBox="0 0 2000 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="160" y1="90" x2="1840" y2="1010" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A1018"/>
+      <stop offset="1" stop-color="#111B28"/>
+    </linearGradient>
+    <linearGradient id="cabinetFace" x1="440" y1="260" x2="1210" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D2A3A"/>
+      <stop offset="1" stop-color="#152131"/>
+    </linearGradient>
+    <linearGradient id="cabinetSide" x1="1210" y1="300" x2="1500" y2="870" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#182334"/>
+      <stop offset="1" stop-color="#101A29"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="300" y1="170" x2="1680" y2="980" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C7BFF"/>
+      <stop offset="1" stop-color="#0A4EA9"/>
+    </linearGradient>
+    <filter id="softGlow" x="0" y="0" width="2000" height="1100" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="36"/>
+    </filter>
+  </defs>
+
+  <rect width="2000" height="1100" fill="url(#bg)"/>
+  <circle cx="440" cy="260" r="250" fill="#1C7BFF" fill-opacity="0.18" filter="url(#softGlow)"/>
+  <circle cx="1630" cy="860" r="320" fill="#1A56B4" fill-opacity="0.14" filter="url(#softGlow)"/>
+
+  <g opacity="0.28" stroke="#5F7794" stroke-width="1">
+    <path d="M130 160H1870"/>
+    <path d="M130 260H1870"/>
+    <path d="M130 360H1870"/>
+    <path d="M130 460H1870"/>
+    <path d="M130 560H1870"/>
+    <path d="M130 660H1870"/>
+    <path d="M130 760H1870"/>
+    <path d="M130 860H1870"/>
+    <path d="M130 960H1870"/>
+  </g>
+
+  <g opacity="0.22" stroke="#6A84A5" stroke-width="1">
+    <path d="M220 120V980"/>
+    <path d="M420 120V980"/>
+    <path d="M620 120V980"/>
+    <path d="M820 120V980"/>
+    <path d="M1020 120V980"/>
+    <path d="M1220 120V980"/>
+    <path d="M1420 120V980"/>
+    <path d="M1620 120V980"/>
+    <path d="M1820 120V980"/>
+  </g>
+
+  <g>
+    <path d="M410 300L1210 300L1210 860L410 860Z" fill="url(#cabinetFace)" stroke="#3D5270" stroke-width="3"/>
+    <path d="M1210 300L1490 355V900L1210 860V300Z" fill="url(#cabinetSide)" stroke="#39506D" stroke-width="3"/>
+    <path d="M410 300L690 355L1490 355L1210 300H410Z" fill="#203044" stroke="#415A78" stroke-width="3"/>
+
+    <rect x="456" y="374" width="708" height="72" rx="8" fill="#101A28" stroke="#3D5270" stroke-width="2"/>
+    <rect x="456" y="464" width="708" height="72" rx="8" fill="#101A28" stroke="#3D5270" stroke-width="2"/>
+    <rect x="456" y="554" width="708" height="72" rx="8" fill="#101A28" stroke="#3D5270" stroke-width="2"/>
+    <rect x="456" y="644" width="708" height="72" rx="8" fill="#101A28" stroke="#3D5270" stroke-width="2"/>
+    <rect x="456" y="734" width="708" height="96" rx="10" fill="#101A28" stroke="#3D5270" stroke-width="2"/>
+
+    <rect x="782" y="322" width="108" height="38" rx="8" fill="#0C1724" stroke="#57759C" stroke-width="2"/>
+    <circle cx="836" cy="341" r="8.5" fill="#8EA6C3"/>
+
+    <rect x="1300" y="510" width="154" height="64" rx="10" fill="#0E1A28" stroke="#4B6587" stroke-width="2"/>
+    <rect x="1316" y="526" width="20" height="32" rx="4" fill="#1B3554"/>
+    <rect x="1348" y="526" width="20" height="32" rx="4" fill="#1B3554"/>
+    <rect x="1380" y="526" width="20" height="32" rx="4" fill="#1B3554"/>
+    <rect x="1412" y="526" width="26" height="32" rx="4" fill="#1A56B4"/>
+
+    <circle cx="1320" cy="910" r="24" fill="#111E2D" stroke="#546E8E" stroke-width="4"/>
+    <circle cx="1450" cy="930" r="24" fill="#111E2D" stroke="#546E8E" stroke-width="4"/>
+    <circle cx="540" cy="872" r="26" fill="#111E2D" stroke="#546E8E" stroke-width="4"/>
+    <circle cx="1030" cy="872" r="26" fill="#111E2D" stroke="#546E8E" stroke-width="4"/>
+  </g>
+
+  <g>
+    <path d="M190 174H1120" stroke="url(#accent)" stroke-width="4"/>
+    <text x="190" y="146" fill="#AFC4DE" font-family="Manrope, Arial, sans-serif" font-size="36" letter-spacing="6">SAFEWELL GEO VISUAL</text>
+    <text x="190" y="232" fill="#FFFFFF" font-family="Manrope, Arial, sans-serif" font-size="88" font-weight="700">Industrial Tool Cabinet</text>
+    <text x="190" y="318" fill="#6FB0FF" font-family="Manrope, Arial, sans-serif" font-size="72" font-weight="700">Configuration Intelligence</text>
+    <text x="190" y="384" fill="#C4D2E2" font-family="IBM Plex Sans, Arial, sans-serif" font-size="34">Drawers | Lock Systems | Side-Mounted PDU Standards</text>
+  </g>
+</svg>

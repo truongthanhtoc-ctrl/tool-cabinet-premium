@@ -1,0 +1,55 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wbg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D131C"/>
+      <stop offset="1" stop-color="#141F2E"/>
+    </linearGradient>
+    <linearGradient id="waccent" x1="250" y1="180" x2="1370" y2="730" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2F87FF"/>
+      <stop offset="1" stop-color="#1A57B0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#wbg)"/>
+  <text x="110" y="120" fill="#F4F8FF" font-family="Manrope, Arial, sans-serif" font-size="56" font-weight="700">OEM Tool Cabinet Workflow Blueprint</text>
+  <text x="110" y="172" fill="#96B6DA" font-family="IBM Plex Sans, Arial, sans-serif" font-size="28">From requirement capture to production validation</text>
+
+  <g font-family="IBM Plex Sans, Arial, sans-serif" font-size="24" fill="#DCE8F6">
+    <rect x="110" y="240" width="250" height="140" rx="18" fill="#172232" stroke="#385476" stroke-width="2"/>
+    <text x="140" y="298">1. Requirement</text>
+    <text x="140" y="336">Tool Mix + Users</text>
+
+    <rect x="420" y="240" width="250" height="140" rx="18" fill="#172232" stroke="#385476" stroke-width="2"/>
+    <text x="450" y="298">2. Architecture</text>
+    <text x="450" y="336">Drawer Strategy</text>
+
+    <rect x="730" y="240" width="250" height="140" rx="18" fill="#172232" stroke="#385476" stroke-width="2"/>
+    <text x="760" y="298">3. Security</text>
+    <text x="760" y="336">Lock Selection</text>
+
+    <rect x="1040" y="240" width="250" height="140" rx="18" fill="#172232" stroke="#385476" stroke-width="2"/>
+    <text x="1070" y="298">4. Electrical</text>
+    <text x="1070" y="336">PDU Standard</text>
+
+    <rect x="1350" y="240" width="140" height="140" rx="18" fill="#1A57B0" stroke="#6CAFFF" stroke-width="2"/>
+    <text x="1374" y="300" fill="#FFFFFF">5. Pilot</text>
+    <text x="1374" y="336" fill="#FFFFFF">Validate</text>
+  </g>
+
+  <g stroke="url(#waccent)" stroke-width="8" stroke-linecap="round">
+    <path d="M366 310H410"/>
+    <path d="M676 310H720"/>
+    <path d="M986 310H1030"/>
+    <path d="M1296 310H1340"/>
+  </g>
+
+  <g fill="#0F1A2A" stroke="#3E5879" stroke-width="2">
+    <rect x="140" y="490" width="1320" height="260" rx="20"/>
+  </g>
+  <text x="184" y="552" fill="#FFFFFF" font-family="Manrope, Arial, sans-serif" font-size="36" font-weight="700">Critical Freeze Points</text>
+  <g fill="#C2D5EA" font-family="IBM Plex Sans, Arial, sans-serif" font-size="25">
+    <text x="186" y="606">• Freeze lock position: recessed center top</text>
+    <text x="186" y="648">• Freeze logo zone: right side panel visual area</text>
+    <text x="186" y="690">• Freeze PDU location: side upper horizontal mount</text>
+    <text x="186" y="732">• Freeze socket matrix: US / UK / EU variants</text>
+  </g>
+</svg>
