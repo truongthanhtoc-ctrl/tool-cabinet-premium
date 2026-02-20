@@ -1,0 +1,28 @@
+# Build outputs and dependencies
+dist
+node_modules
+api/node_modules
+
+# Local git data
+.git
+
+# Unrelated nested repositories / heavy assets
+IMAI.WORK-AI-Phone
+_tmp_repo_seo_geo
+
+# Local deployment artifacts
+deploy
+
+# Local preview/debug assets (not used by production site)
+about-banner-position-check*.png
+careers-page-preview.png
+caster-preview.png
+pdu-standard-preview.png
+product-detail-dev-fixed.png
+products-dev-fixed.png
+products-dev-wait-check.png
+products-page-check.png
+products-preview-check.png
+products-dom.html
+products-dom.txt
+public/assets/home/*-source.jpg
