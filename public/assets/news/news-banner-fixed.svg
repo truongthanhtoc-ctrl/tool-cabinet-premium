@@ -1,0 +1,76 @@
+<svg width="2000" height="900" viewBox="0 0 2000 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="60" x2="1820" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A121D"/>
+      <stop offset="1" stop-color="#132034"/>
+    </linearGradient>
+    <linearGradient id="lineAccent" x1="220" y1="170" x2="1220" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C7BFF"/>
+      <stop offset="1" stop-color="#0A4FAF"/>
+    </linearGradient>
+    <linearGradient id="tileA" x1="1270" y1="190" x2="1800" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A2B40"/>
+      <stop offset="1" stop-color="#102134"/>
+    </linearGradient>
+    <linearGradient id="tileB" x1="1090" y1="280" x2="1580" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F3550"/>
+      <stop offset="1" stop-color="#14263A"/>
+    </linearGradient>
+    <filter id="glow" x="0" y="0" width="2000" height="900" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+  </defs>
+
+  <rect width="2000" height="900" fill="url(#bg)"/>
+
+  <circle cx="410" cy="170" r="210" fill="#1D78F3" fill-opacity="0.18" filter="url(#glow)"/>
+  <circle cx="1660" cy="730" r="280" fill="#1B5EC4" fill-opacity="0.15" filter="url(#glow)"/>
+
+  <g opacity="0.24" stroke="#607995" stroke-width="1">
+    <path d="M120 130H1880"/>
+    <path d="M120 210H1880"/>
+    <path d="M120 290H1880"/>
+    <path d="M120 370H1880"/>
+    <path d="M120 450H1880"/>
+    <path d="M120 530H1880"/>
+    <path d="M120 610H1880"/>
+    <path d="M120 690H1880"/>
+    <path d="M120 770H1880"/>
+  </g>
+
+  <g opacity="0.2" stroke="#6D89A8" stroke-width="1">
+    <path d="M220 90V810"/>
+    <path d="M400 90V810"/>
+    <path d="M580 90V810"/>
+    <path d="M760 90V810"/>
+    <path d="M940 90V810"/>
+    <path d="M1120 90V810"/>
+    <path d="M1300 90V810"/>
+    <path d="M1480 90V810"/>
+    <path d="M1660 90V810"/>
+    <path d="M1840 90V810"/>
+  </g>
+
+  <path d="M220 170H1220" stroke="url(#lineAccent)" stroke-width="4"/>
+
+  <text x="220" y="142" fill="#AFC6E0" font-family="Manrope, Arial, sans-serif" font-size="34" letter-spacing="5">SAFEWELL NEWSROOM</text>
+  <text x="220" y="250" fill="#FFFFFF" font-family="Manrope, Arial, sans-serif" font-size="102" font-weight="700">Latest News</text>
+  <text x="220" y="334" fill="#6FB0FF" font-family="Manrope, Arial, sans-serif" font-size="66" font-weight="700">Industrial Insight & Updates</text>
+  <text x="220" y="396" fill="#C4D4E7" font-family="IBM Plex Sans, Arial, sans-serif" font-size="30">Factory stories, OEM/ODM methods, and technical guides</text>
+
+  <g>
+    <rect x="1240" y="170" width="620" height="520" rx="24" fill="#0E1929" stroke="#355071" stroke-width="3"/>
+    <rect x="1272" y="206" width="556" height="156" rx="16" fill="url(#tileA)" stroke="#406287" stroke-width="2"/>
+    <rect x="1272" y="382" width="266" height="274" rx="16" fill="url(#tileB)" stroke="#406287" stroke-width="2"/>
+    <rect x="1562" y="382" width="266" height="274" rx="16" fill="#13263A" stroke="#406287" stroke-width="2"/>
+
+    <rect x="1300" y="244" width="500" height="18" rx="9" fill="#6FAFFF" fill-opacity="0.75"/>
+    <rect x="1300" y="278" width="412" height="16" rx="8" fill="#9FC2E4" fill-opacity="0.6"/>
+    <rect x="1300" y="308" width="340" height="14" rx="7" fill="#9FC2E4" fill-opacity="0.45"/>
+
+    <rect x="1302" y="420" width="208" height="14" rx="7" fill="#75B3FF" fill-opacity="0.75"/>
+    <rect x="1302" y="448" width="164" height="12" rx="6" fill="#A3C5E8" fill-opacity="0.55"/>
+    <rect x="1592" y="420" width="206" height="14" rx="7" fill="#75B3FF" fill-opacity="0.75"/>
+    <rect x="1592" y="448" width="146" height="12" rx="6" fill="#A3C5E8" fill-opacity="0.55"/>
+  </g>
+</svg>
