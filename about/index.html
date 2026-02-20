@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="About Safewell - Precision Manufacturing, Corporate Culture, and History." />
+    <title>About Us | SAFEWELL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'dark': '#0a0a0a',
+                        'accent': '#004791',
+                        'gold': '#FFD700',
+                    },
+                    fontFamily: {
+                        'oswald': ['Manrope', 'sans-serif'],
+                        'sans': ['IBM Plex Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-dark text-gray-100 antialiased overflow-x-hidden">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 transition-all duration-500 py-4" id="navbar">
+        <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
+            <a href="/" class="flex items-center">
+                <img src="/assets/logo.png" alt="SAFEWELL" class="h-8 md:h-10">
+            </a>
+            <div class="hidden md:flex space-x-10 text-[11px] font-bold tracking-[0.2em] items-center">
+                <a href="/" class="hover:text-accent transition-colors">HOME</a>
+                <a href="/about/" class="text-accent">ABOUT US</a>
+                <a href="/products/" class="hover:text-accent transition-colors">PRODUCTS</a>
+                <a href="/oem-odm/" class="hover:text-accent transition-colors">OEM/ODM</a>
+                <a href="/news/" class="hover:text-accent transition-colors">NEWS</a>
+                <a href="/careers/" class="hover:text-accent transition-colors">CAREERS</a>
+                <a href="/contact/" class="hover:text-accent transition-colors">CONTACT</a>
+            </div>
+            <a href="/contact/" class="hidden md:block btn-primary text-[10px] py-3">
+                REQUEST FACTORY PRICE
+            </a>
+            <button class="md:hidden text-white">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="relative h-[50vh] flex items-center justify-center overflow-hidden bg-neutral-900">
+        <div class="absolute inset-0 z-0">
+            <img src="/assets/about/about-banner-lobby.jpg"
+                alt="Factory" class="w-full h-full object-cover opacity-80" style="object-position: 66% 78%;">
+            <div class="absolute inset-0 bg-gradient-to-t from-dark/55 via-dark/10 to-transparent"></div>
+        </div>
+        <div class="relative z-10 text-center">
+            <span class="text-accent uppercase tracking-widest text-sm font-semibold mb-4 block">Who We Are</span>
+            <h1 class="font-oswald text-5xl md:text-7xl text-white uppercase font-bold tracking-tighter">About Safewell
+            </h1>
+        </div>
+    </header>
+
+    <!-- About Content -->
+    <section id="profile" class="py-24 bg-neutral-900 relative">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row gap-16 items-center">
+                <div class="md:w-1/2 reveal-on-scroll">
+                    <span class="text-accent uppercase tracking-widest text-xs font-semibold mb-2 block">Our
+                        Story</span>
+                    <h2 class="font-oswald text-4xl md:text-5xl text-white uppercase mb-6">Precision Manufacturing
+                        <br>Since 1998
+                    </h2>
+                    <p class="text-gray-400 mb-6 leading-relaxed">
+                        SAFEWELL is a premier manufacturer of high-end industrial tool cabinets based in Ningbo, China.
+                        Built on a
+                        foundation of precision sheet metal engineering, we develop 100% original, patented structures
+                        that set us
+                        apart from generic molds.
+                    </p>
+                    <p class="text-gray-400 mb-8 leading-relaxed">
+                        From our automated electrostatic powder coating lines to our in-house PDU manufacturing, every
+                        aspect of
+                        production is controlled to ensure superior stability, durability, and a premium finish.
+                    </p>
+                    <div class="flex gap-8">
+                        <div>
+                            <span class="block text-3xl text-white font-oswald font-bold">25+</span>
+                            <span class="text-xs text-gray-500 uppercase tracking-widest">Years Exp</span>
+                        </div>
+                        <div>
+                            <span class="block text-3xl text-white font-oswald font-bold">50+</span>
+                            <span class="text-xs text-gray-500 uppercase tracking-widest">Patents</span>
+                        </div>
+                        <div>
+                            <span class="block text-3xl text-white font-oswald font-bold">80+</span>
+                            <span class="text-xs text-gray-500 uppercase tracking-widest">Countries</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 reveal-on-scroll delay-100">
+                    <!-- Video Embed -->
+                    <div
+                        class="relative aspect-video bg-neutral-800 border border-white/10 overflow-hidden shadow-2xl group">
+                        <video class="w-full h-full object-cover" controls
+                            poster="https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?auto=format&fit=crop&q=80&w=1000">
+                            <source src="https://www.safewellstorage.com/video/video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- History Timeline (New) -->
+    <section id="history" class="py-24 bg-dark relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16 reveal-on-scroll">
+                <span class="text-accent font-bold tracking-[0.3em] text-xs mb-4 block">OUR JOURNEY</span>
+                <h2 class="text-4xl md:text-5xl font-oswald font-bold text-white uppercase">History of Safewell</h2>
+            </div>
+
+            <div class="relative">
+                <!-- Vertical Line -->
+                <div class="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-accent/30 md:-translate-x-1/2"></div>
+
+                <!-- 1998 -->
+                <div
+                    class="relative flex flex-col md:flex-row items-center justify-between mb-12 group reveal-on-scroll">
+                    <div class="w-full md:w-5/12 order-2 md:order-1 md:text-right pl-12 md:pl-0 md:pr-12">
+                        <div
+                            class="bg-neutral-900 p-0 shadow-2xl rounded-sm border-l-4 border-gold relative hover:-translate-y-1 transition-transform duration-300 overflow-hidden">
+                            <img src="https://www.safesworld.com/wp-content/uploads/2021/07/1998.jpg"
+                                class="w-full h-48 object-cover opacity-80 group-hover:opacity-100 transition-opacity"
+                                referrerpolicy="no-referrer" alt="1998 Founding">
+                            <div class="p-6 relative bg-neutral-900 text-white">
+                                <h3 class="font-oswald text-2xl font-bold text-white mb-2">Since 1998</h3>
+                                <p class="text-gray-400 text-sm">Safewell Group Holdings founded. Venture into the
+                                    Chinese mainland market, focusing on security products.</p>
+                                <!-- Arrow -->
+                                <div
+                                    class="absolute top-6 -left-2 md:left-auto md:-right-2 w-4 h-4 bg-neutral-900 transform rotate-45 border-l border-b md:border-l-0 md:border-b-0 md:border-r md:border-t border-gold">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="absolute left-4 md:left-1/2 w-8 h-8 bg-accent rounded-full border-4 border-white shadow-md transform -translate-x-1/2 flex items-center justify-center z-10 order-1 md:order-2">
+                        <div class="w-2 h-2 bg-white rounded-full"></div>
+                    </div>
+                    <div
+                        class="hidden md:block w-5/12 order-3 pl-12 opacity-10 text-6xl font-oswald font-bold text-white select-none">
+                        1998</div>
+                </div>
+
+                <!-- 2003 -->
+                <div
+                    class="relative flex flex-col md:flex-row items-center justify-between mb-12 group reveal-on-scroll">
+                    <div
+                        class="hidden md:block w-5/12 order-1 text-right pr-12 opacity-10 text-6xl font-oswald font-bold text-white select-none">
+                        2003</div>
+                    <div
+                        class="absolute left-4 md:left-1/2 w-8 h-8 bg-white border-4 border-accent rounded-full shadow-md transform -translate-x-1/2 flex items-center justify-center z-10 order-1 md:order-2">
+                        <div class="w-2 h-2 bg-accent rounded-full"></div>
+                    </div>
+                    <div class="w-full md:w-5/12 order-2 md:order-3 pl-12 md:pl-12">
+                        <div
+                            class="bg-neutral-900 p-0 shadow-2xl rounded-sm border-l-4 border-accent relative hover:-translate-y-1 transition-transform duration-300 overflow-hidden">
+                            <img src="https://www.safesworld.com/wp-content/uploads/2021/08/SHOW-ROOM1G.jpg"
+                                class="w-full h-48 object-cover opacity-80 group-hover:opacity-100 transition-opacity"
+                                referrerpolicy="no-referrer" alt="2003 Expansion">
+                            <div class="p-6 relative bg-neutral-900 text-white">
+                                <h3 class="font-oswald text-2xl font-bold text-white mb-2">Expansion</h3>
+                                <p class="text-gray-400 text-sm">Established Ningbo Excellent Electronic Security
+                                    Products Co., Ltd. (22,000„é? for lock control systems.</p>
+                                <div
+                                    class="absolute top-6 -left-2 w-4 h-4 bg-neutral-900 transform rotate-45 border-l border-b border-accent">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2010 -->
+                <div
+                    class="relative flex flex-col md:flex-row items-center justify-between mb-12 group reveal-on-scroll">
+                    <div class="w-full md:w-5/12 order-2 md:order-1 md:text-right pl-12 md:pl-0 md:pr-12">
+                        <div
+                            class="bg-neutral-900 p-0 shadow-2xl rounded-sm border-l-4 border-gold relative hover:-translate-y-1 transition-transform duration-300 overflow-hidden">
+                            <img src="https://www.safesworld.com/wp-content/uploads/2021/07/2010.jpg"
+                                class="w-full h-48 object-cover opacity-80 group-hover:opacity-100 transition-opacity"
+                                referrerpolicy="no-referrer" alt="2010 Industrial Growth">
+                            <div class="p-6 relative bg-neutral-900 text-white">
+                                <h3 class="font-oswald text-2xl font-bold text-white mb-2">Industrial Growth</h3>
+                                <p class="text-gray-400 text-sm">Safewell Datacenter Equipment built (30,000„é?.
+                                    Precision sheet metal capabilities fully established.</p>
+                                <div
+                                    class="absolute top-6 -left-2 md:left-auto md:-right-2 w-4 h-4 bg-neutral-900 transform rotate-45 border-l border-b md:border-l-0 md:border-b-0 md:border-r md:border-t border-gold">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="absolute left-4 md:left-1/2 w-8 h-8 bg-accent rounded-full border-4 border-white shadow-md transform -translate-x-1/2 flex items-center justify-center z-10 order-1 md:order-2">
+                        <div class="w-2 h-2 bg-white rounded-full"></div>
+                    </div>
+                    <div
+                        class="hidden md:block w-5/12 order-3 pl-12 opacity-10 text-6xl font-oswald font-bold text-white select-none">
+                        2010</div>
+                </div>
+
+                <!-- 2015 -->
+                <div
+                    class="relative flex flex-col md:flex-row items-center justify-between mb-12 group reveal-on-scroll">
+                    <div
+                        class="hidden md:block w-5/12 order-1 text-right pr-12 opacity-10 text-6xl font-oswald font-bold text-white select-none">
+                        2015</div>
+                    <div
+                        class="absolute left-4 md:left-1/2 w-8 h-8 bg-white border-4 border-accent rounded-full shadow-md transform -translate-x-1/2 flex items-center justify-center z-10 order-1 md:order-2">
+                        <div class="w-2 h-2 bg-accent rounded-full"></div>
+                    </div>
+                    <div class="w-full md:w-5/12 order-2 md:order-3 pl-12 md:pl-12">
+                        <div
+                            class="bg-neutral-900 p-0 shadow-2xl rounded-sm border-l-4 border-accent relative hover:-translate-y-1 transition-transform duration-300 overflow-hidden">
+                            <img src="https://www.safesworld.com/wp-content/uploads/2021/07/2015.jpg"
+                                class="w-full h-48 object-cover opacity-80 group-hover:opacity-100 transition-opacity"
+                                referrerpolicy="no-referrer" alt="2015 Upgrade">
+                            <div class="p-6 relative bg-neutral-900 text-white">
+                                <h3 class="font-oswald text-2xl font-bold text-white mb-2">Strategic Upgrade</h3>
+                                <p class="text-gray-400 text-sm">Groundbreaking for 120,000„é?Zhejiang Safewell Security
+                                    Technology base. Global branding strategy launched.</p>
+                                <div
+                                    class="absolute top-6 -left-2 w-4 h-4 bg-neutral-900 transform rotate-45 border-l border-b border-accent">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2023 -->
+                <div class="relative flex flex-col md:flex-row items-center justify-between group reveal-on-scroll">
+                    <div class="w-full md:w-5/12 order-2 md:order-1 md:text-right pl-12 md:pl-0 md:pr-12">
+                        <div
+                            class="bg-neutral-900 p-0 shadow-2xl rounded-sm border-l-4 border-gold relative hover:-translate-y-1 transition-transform duration-300 overflow-hidden">
+                            <img src="https://www.safesworld.com/wp-content/uploads/2021/09/safewelll-history.jpg"
+                                class="w-full h-48 object-cover opacity-80 group-hover:opacity-100 transition-opacity"
+                                referrerpolicy="no-referrer" alt="2023 Anniversary">
+                            <div class="p-6 relative bg-neutral-900 text-white">
+                                <h3 class="font-oswald text-2xl font-bold text-white mb-2">25th Anniversary</h3>
+                                <p class="text-gray-400 text-sm">Celebrated 25 years of excellence. Achieved global Top
+                                    Grade IV certification by German VdS.</p>
+                                <div
+                                    class="absolute top-6 -left-2 md:left-auto md:-right-2 w-4 h-4 bg-neutral-900 transform rotate-45 border-l border-b md:border-l-0 md:border-b-0 md:border-r md:border-t border-gold">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="absolute left-4 md:left-1/2 w-8 h-8 bg-accent rounded-full border-4 border-white shadow-md transform -translate-x-1/2 flex items-center justify-center z-10 order-1 md:order-2">
+                        <div class="w-2 h-2 bg-white rounded-full"></div>
+                    </div>
+                    <div
+                        class="hidden md:block w-5/12 order-3 pl-12 opacity-10 text-6xl font-oswald font-bold text-white select-none">
+                        2023</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Corporate Culture Section -->
+    <section id="culture" class="py-24 bg-white relative">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-20 reveal-on-scroll">
+                <span class="text-accent font-bold tracking-[0.3em] text-xs mb-4 block">OUR DNA</span>
+                <h2 class="text-5xl md:text-6xl font-oswald font-bold text-dark uppercase">Corporate Culture</h2>
+            </div>
+
+            <!-- 01 Social Responsibility -->
+            <div class="flex flex-col md:flex-row items-center gap-12 mb-24 reveal-on-scroll">
+                <div class="w-full md:w-1/2 order-2 md:order-1">
+                    <span class="text-6xl font-bold text-gray-100 block mb-4">01</span>
+                    <h3 class="text-3xl font-bold text-dark mb-6">Social Responsibility</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-8">
+                        Wealth represents the capabilities of a company, and it also means the responsibility of the
+                        company and entrepreneurs; to be a brand is ultimately a responsibility. <strong>The purpose of
+                            doing business is not only to make money, but also to fulfill one of our social
+                            responsibilities. We must regard doing business as a bridge of dedication to
+                            society.</strong> Said Xu Punan, President of Safewell International. For many years, all
+                        companies under Safewell Group have continued to inject charity funds into the foundation every
+                        year, and employees of Safewell Group have also voluntarily joined the donation team.
+                    </p>
+                </div>
+                <div class="w-full md:w-1/2 order-1 md:order-2">
+                    <div class="aspect-video bg-gray-100 overflow-hidden shadow-xl rounded-lg">
+                        <img src="/assets/culture-social.jpg"
+                            class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 02 Talent First -->
+            <div class="flex flex-col md:flex-row items-center gap-12 mb-24 reveal-on-scroll">
+                <div class="w-full md:w-1/2 order-1">
+                    <div class="aspect-video bg-gray-100 overflow-hidden shadow-xl rounded-lg">
+                        <img src="/assets/culture-talent.png"
+                            class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 order-2">
+                    <span class="text-6xl font-bold text-gray-100 block mb-4">02</span>
+                    <h3 class="text-3xl font-bold text-dark mb-6">Talent First</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-8">
+                        Safewell International Group consistently adheres to the philosophy of "Talent First,
+                        People-Oriented," believing that "talent is the most valuable corporate resource." The company
+                        emphasizes that talent management takes precedence over business operations, positioning itself
+                        on a path of sustainable development that focuses on nurturing and achieving individuals.
+                        Safewell International implements a "Three Highs" strategy for talent management, which includes
+                        high quality, high compensation, and high performance, to ensure mutual growth and success for
+                        both the company and its employees.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 03 Thanksgiving Party -->
+            <div class="flex flex-col md:flex-row items-center gap-12 mb-24 reveal-on-scroll">
+                <div class="w-full md:w-1/2 order-2 md:order-1">
+                    <span class="text-6xl font-bold text-gray-100 block mb-4">03</span>
+                    <h3 class="text-3xl font-bold text-dark mb-6">Thanksgiving Party</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-8">
+                        December 18th of lunar calendar is the Thanksgiving Day of Safewell when an annual thanksgiving
+                        party is to be held in the way of Safewell. On Safewell's Thanksgiving Day, all the members of
+                        Safewell extend their gratitude to government and society, predecessors of the company,
+                        investors, partners, users and employees in the form of "flag raising, singing songs, worship,
+                        praying ceremony"
+                    </p>
+                </div>
+                <div class="w-full md:w-1/2 order-1 md:order-2">
+                    <div class="aspect-video bg-gray-100 overflow-hidden shadow-xl rounded-lg">
+                        <img src="/assets/culture-thanks.png"
+                            class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 04 Culture of Morning Exercise -->
+            <div class="flex flex-col md:flex-row items-center gap-12 reveal-on-scroll">
+                <div class="w-full md:w-1/2 order-1">
+                    <div class="aspect-video bg-gray-100 overflow-hidden shadow-xl rounded-lg">
+                        <img src="/assets/culture-morning.jpg"
+                            class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 order-2">
+                    <span class="text-6xl font-bold text-gray-100 block mb-4">04</span>
+                    <h3 class="text-3xl font-bold text-dark mb-6">Culture of Morning Exercise</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-8">
+                        Every day at 8:20 in the morning, Safewell family members will spontaneously go downstairs for
+                        morning exercises and actively share their thoughts on stage. The morning exercise of Safewell
+                        is to let all of us at Safewell cultivate our own "body" and "heart" every day, so that they
+                        will continue to be healthy. Only with a healthy body and mind can you create physical SAFE and
+                        feel the spirit WELL.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Contact CTA Section -->
+    <section class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-6 text-center reveal-on-scroll">
+            <h2 class="text-3xl md:text-5xl font-oswald font-bold text-[#0a2558] mb-12 leading-tight">
+                Contact Safewell to make the world a <br class="hidden md:block" />better place
+            </h2>
+            <a href="/contact/"
+                class="inline-block bg-[#0056b3] hover:bg-[#004494] text-white font-bold py-4 px-12 rounded transition-colors duration-300 transform hover:-translate-y-1">
+                Get a Quick Quote
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+    <div class="site-footer__glow site-footer__glow--left"></div>
+    <div class="site-footer__glow site-footer__glow--right"></div>
+    <div class="site-footer__inner max-w-7xl mx-auto px-6">
+        <div class="site-footer__top">
+            <div class="site-footer__brand">
+                <a href="/" class="site-footer__logo-link">
+                    <img src="/assets/logo.png" alt="SAFEWELL" class="h-8 md:h-10">
+                </a>
+                <p class="site-footer__intro">
+                    Since 1998, SAFEWELL has delivered industrial tool cabinet programs for global markets, combining
+                    engineering development, controlled manufacturing, and reliable export execution.
+                </p>
+                <div class="site-footer__badges">
+                    <span>ISO 9001</span>
+                    <span>OEM / ODM</span>
+                    <span>Global Export</span>
+                </div>
+            </div>
+
+            <div class="site-footer__panel">
+                <h5 class="site-footer__title">Quick Links</h5>
+                <ul class="site-footer__list">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about/">About Us</a></li>
+                    <li><a href="/products/">Products</a></li>
+                    <li><a href="/contact/">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="site-footer__panel">
+                <h5 class="site-footer__title">Solutions</h5>
+                <ul class="site-footer__list">
+                    <li><a href="/oem-odm/">OEM / ODM Program</a></li>
+                    <li><a href="/projects/">Projects</a></li>
+                    <li><a href="/news/">News</a></li>
+                    <li><a href="/careers/">Careers</a></li>
+                </ul>
+            </div>
+
+            <div class="site-footer__panel site-footer__contact">
+                <h5 class="site-footer__title">Contact</h5>
+                <div class="site-footer__contact-item">
+                    <span>Email</span>
+                    <a href="mailto:info@swtoolstorage.com">info@swtoolstorage.com</a>
+                </div>
+                <div class="site-footer__contact-item">
+                    <span>Address</span>
+                    <p>No. 26 Pushun Road, Xiaogang Street, Beilun District, Ningbo City, Zhejiang Province</p>
+                </div>
+                <div class="site-footer__social">
+                    <a href="#" aria-label="LinkedIn">
+                        <svg fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <svg fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="site-footer__highlights">
+            <div class="site-footer__highlight-item">
+                <p class="site-footer__highlight-title">Engineering-Led Development</p>
+                <p class="site-footer__highlight-text">Structure, lock, caster, and accessory planning aligned to your market use case.</p>
+            </div>
+            <div class="site-footer__highlight-item">
+                <p class="site-footer__highlight-title">Production And Quality Control</p>
+                <p class="site-footer__highlight-text">Incoming, in-process, functional, and outgoing checkpoints across every order batch.</p>
+            </div>
+            <div class="site-footer__highlight-item">
+                <p class="site-footer__highlight-title">Business Response Efficiency</p>
+                <p class="site-footer__highlight-text">Clear communication, practical proposals, and coordinated export support.</p>
+            </div>
+        </div>
+
+        <div class="site-footer__bottom">
+            <p>&copy; 2026 SAFEWELL Precision Manufacturing. All Rights Reserved.</p>
+            <div class="site-footer__legal">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="/contact/">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>
+
